@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    title Umbrella Dance Academy
+    style
+      include ../static/dance.css
+  body
+    nav#navbar 
+        ul 
+          div#logo
+            img(src="/static/img/logo1.webp")
+            |UDA
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About]
+            li #[a(href = '/') Contact Us]
+    
+    section#introsection 
+      div Welcome to Umbrella Dance Academy 
+      div.small Eat Sleep Dance Repeat 
+    
+    section#mission 
+      h2 Our Mission 
+      div.card 
+        h3 Make You Love dance 
+        div.card-box
+            div.card-img
+              img(src="/static/img/img1.webp")
+            div.card-content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, incidunt.
+      div.card 
+        h3 Expert Training
+        div.card-box
+            div.card-img
+              img(src="/static/img/img2.webp")
+            div.card-content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, rem.
+      div.card 
+        h3 Perfect Your Moves 
+        div.card-box
+            div.card-img
+              img(src="/static/img/img3.webp")
+            div.card-content
+              p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, magni!
+
+    section#partners 
+        h2 Our Partners
+        div#partner
+          img(src="/static/img/partner1.webp", alt="",class='partner-img')
+          img(src="/static/img/partner2.webp", alt="",class='partner-img')
+          img(src="/static/img/partner3.webp", alt="",class='partner-img')
+          img(src="/static/img/partner4.webp", alt="",class='partner-img')
+    section#footer 
+        |Copyright &copy; 2023 UmbrellaDanceAcademy.com All rights reserved 
